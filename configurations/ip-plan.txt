@@ -1,0 +1,17 @@
+Lab 1 IP Plan
+
+VPC:
+10.0.0.0/16
+
+Subnets:
+Management Subnet: 10.0.0.0/24
+Trust Subnet:      10.0.1.0/24
+Untrust Subnet:    10.0.2.0/24
+
+Design Rule:
+No Internet Gateway
+No NAT Gateway
+No default route to 0.0.0.0/0
+
+Purpose:
+Create isolated cloud network foundation before inserting Palo Alto firewall.
